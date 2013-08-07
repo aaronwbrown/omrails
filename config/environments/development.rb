@@ -30,5 +30,9 @@ Omrails::Application.configure do
   #in production :host should be set to the actual host of your application
   config.action_mailer.default_url_options = { :host => 'localhost:3000' }
 
+  config.assets.precompile += %w( bootstrap.css )
+
+
+
 
 end
